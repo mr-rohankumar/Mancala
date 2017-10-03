@@ -6,7 +6,7 @@
 To explore model-view-controller (MVC) architecture and strategy patterns principles by simulating the ancient game of Mancala.
 
 ## Implementation:
-The Model class maintains the game state and alerts attached listeners. The Logic class controls the model through commands defined by the game rules. The Pit class and the Board class are the views for the game. These are various classes that defines GUI elements such as the pits and undo / end turn buttons. The action listeners for the buttons are included in the Board class, thus making the Board class a view as well as a Controller. The action listeners call the appropriate methods, and then update the model. The Board class also displays the game over notification screen when one side of the board is empty.
+The Model class maintains the game state and alerts attached listeners. The Logic class controls the model through commands defined by the game rules. The Pit class and the Board class are the views for the game. These are various classes that defines GUI elements such as the pits and undo / end turn buttons. The action listeners for the buttons are included in the Board class, thus making the Board class a view as well as a Controller. The action listeners call the appropriate methods, and then update the model. The Board class also displays the game over notification screen when one side of the board is empty. See "Uses Cases.pdf".
 
 ## Instructions:
 Compile project and run ```MancalaTest.java```.
